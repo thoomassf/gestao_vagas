@@ -1,4 +1,4 @@
-package br.com.thomasfarias.gestao_vagas.modules.company;
+package br.com.thomasfarias.gestao_vagas.modules.company.entities;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
@@ -30,7 +30,7 @@ public class CompanyEntity {
 
     @Length(min = 10, max = 100, message = "A senha deve conter entre (10) e (100) caracteres")
     private String password;
-    
+
     private String website;
     private String name;
     private String description;
